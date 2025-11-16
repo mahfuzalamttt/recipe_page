@@ -1,0 +1,122 @@
+body{
+    background-color: hsl(30, 100%, 83%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+p, li, table{
+    font-family: Outfit, sans-serif;
+    color: hsl(30, 54%, 18%);
+}
+
+.title{
+    color: hsl(30, 54%, 18%);
+}
+
+.heading{
+    font-family: Young Serif, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.container{
+    background-color: white;
+    width: 650px;
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.image{
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.prep{
+    background-color: hsl(30, 100%, 90%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.prep p{
+    font-style: Outfit, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+.ingre, .instr{
+    padding-bottom: 8px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    padding-left: 20px;
+}
+
+ol li::marker{
+    font-weight: bold;
+}
+
+.list li{
+    padding-left: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 250px;
+}
+
+.value{
+    font-weight: 700;
+}
+
+.row p{
+    margin: 0.5rem;
+}
+
+@media (max-width: 375px){
+    .heading{
+        font-size: 1.8rem;
+    }
+
+    .container{
+        padding: 20px;
+    }
+
+    .list{
+        padding-left: 15px;
+    }
+
+    .row{
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 10px;
+    }
+
+    .row p{
+        margin: 2px 0;
+    }
+}
+
+
+.footer { 
+    font-size: 16px; 
+    text-align: center; 
+}
+.footer a { 
+    color: hsl(228, 45%, 44%); 
+}
+
